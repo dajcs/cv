@@ -1,0 +1,168 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\geometry{margin=1in}
+
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\urlstyle{rm}
+
+\usepackage{attachfile2} % for attaching files to the rendered PDF: \attachfile{example.xlsx}
+
+\usepackage{embedfile}
+\usepackage{hypgotoe}
+\embedfile{references/resume-references.pdf}
+\embedfile{references/42Transcript.pdf}
+
+
+\usepackage{array}
+
+%------------------------------------------------
+
+\begin{document}
+
+\title{Attila NÉMET}
+% \author{Attila Német}
+\date{}
+\maketitle
+
+
+% \hspace{-0.5cm}
+\begin{minipage}[t]{0.14\textwidth}
+    \vspace{0pt} % Aligns the top of the image with the text
+    \includegraphics[width=\textwidth]{img/myself_ID.png} % path to the image
+\end{minipage}
+\hfill
+% \hspace{0.1\textwidth}
+\begin{minipage}[t]{0.66\textwidth}
+    \vspace{0pt} % Aligns the top of the image with the text
+    \subsection*{Contact Information}
+    \begin{tabbing}
+        \hspace{2.55cm} \= \hspace{3cm} \= \kill % Set tab stops
+        \textbf{Mobile}:  \> +352-661-118922 \\
+        \textbf{Email}:  \> \href{mailto:attila.nemet@gmail.com}{attila.nemet@gmail.com} \\
+        \textbf{LinkedIn}:   \> \href{https://www.linkedin.com/in/attilanemet}{https://www.linkedin.com/in/attilanemet} \\
+        \textbf{Address}:   \> 29 rue Jean-Pierre Sauvage, 2514 Luxembourg \\
+    \end{tabbing}
+    \end{minipage}
+
+\subsection*{Summary}
+With over two decades of broad experience in ICT (Information and Communications Technology) at Ericsson and proficiency in Python scripting for network configurations, I have consistently kept pace with advancements in AI (Artificial Intelligence) and ML (Machine Learning) through personal projects and extensive online courses.
+
+Expanding my expertise, I recently completed an Interdisciplinary Space Master's degree at the University of Luxembourg, where I not only explored the vast wonders of the universe but also discovered the transformative potential of Large Language Models (LLMs). Currently, I am further deepening my programming skills at the 42 School in Luxembourg.
+
+\subsection*{Education}
+\begin{itemize}
+    \item \textbf{Present}: 42 School, Luxembourg\\
+    \href{gotoe:embedded=references/42Transcript.pdf}{Project-based learning}, foundation in C and C++, with a goal of specializing in AI/LLM
+    \item \textbf{September 2024}: University of Luxembourg\\
+    Master in Space Technologies and Business
+\end{itemize}
+
+\subsection*{Relevant Skills and Experiences}
+\begin{itemize}
+    \item \textbf{Software Testing using LLMs:} Studied the possibility to use LLMs for testing of space software and wrote my
+    \href{https://gitlab.com/uniluxembourg/snt/svv/msc/nemet-attila-istvan-msc/thesis_work/-/blob/main/A.Nemet_Thesis_TMT__LLM.pdf}{ master thesis}
+    in this subject.
+    \item \textbf{Scientific Space Project:} Generation of Training Images for Lens Flare Removal -- developing the LFW (\href{https://github.com/dajcs/LFW}{Lens Flare Wizard}), a Python and Blender-based toolkit for augmenting training datasets with realistic lens flare effects to train computer vision models against lens flare artifacts.
+    \item \textbf{Algorithm Development \& Programming:} Proficiency in Python. Prepared RAN (Radio Access Network) configuration scripts (3G, 4G \& 5G) using Python scripts. Developed and maintained algorithms for telecommunication operations and RAN modernization projects.
+    \item \textbf{Artificial Intelligence \& Machine Learning:} Acquainted with AI and ML concepts. Developed a concept for mass configuration of telecom equipment using machine learning and artificial intelligence.
+    \item \textbf{Database:} Managed various network databases; hands-on experience in database manipulation and cloud-based tools.
+    \item \textbf{Teamwork \& Communication:} Worked in 20+ countries
+    (\href{gotoe:embedded=references/resume-references.pdf}{resume-references.pdf}).
+    Collaborated with diverse teams across different projects. Provided support and effectively communicated with POs (Product Owners).
+\end{itemize}
+% icon =  Paperclip | PushPin | Graph | Tag
+
+\subsection*{Languages}
+\begin{tabbing}
+    \hspace{0.55cm} \= \hspace{2.55cm} \= \hspace{3cm} \= \kill % Set tab stops
+    \> \textbf{English}:  \> C2 -- Fluent \\
+    \> \textbf{Romanian}:  \> C2 -- Fluent \\
+    \> \textbf{French}:   \> B2 -- Intermediate \\
+    \> \textbf{German}:   \> B1 -- Intermediate \\
+    \> \textbf{Hungarian}: \> L1 -- Mother tongue \\
+\end{tabbing}
+
+
+\subsection*{Technical Strengths}
+% \begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
+%     Computer Languages & C, Perl, Latex, Python, AI/ML, LLM \\
+%     Protocols \& APIs & XML, JSON, numpy, pandas, matplotlib \\
+%     % Databases & PostgreSQL \\
+%     Tools & Visual Studio Code, Jupyter Notebook, Git
+% \end{tabular}
+
+\begin{tabbing}
+    \hspace{0.55cm} \= \hspace{4.55cm} \= \hspace{3cm} \= \kill % Set tab stops
+
+    \> \textbf{Computer Languages}:  \> C/C++, Perl, Latex, Python, LLM \\
+    \> \textbf{Protocols \& APIs}:  \> XML, JSON, numpy, pandas, matplotlib \\
+    \> \textbf{Tools}:   \> Visual Studio Code, Jupyter Notebook, Git \\
+    \> \textbf{AI}:   \> MS Copilot, Claude Code, MCP, Skills, LangChain \\
+
+\end{tabbing}
+
+
+
+\subsection*{Selected Work Experiences with Ericsson}
+\begin{itemize}
+    \item \textbf{Apr 2015 -- Dec 2021, Budapest}: Business Analyst \& Testing
+    \begin{itemize}
+        \item Worked on mass configuration of telecom equipment using AI and ML.
+        \item Assisted in designing and performing load tests with configuration files.
+    \end{itemize}
+    \item \textbf{May 2013 -- Jun 2014, Dublin}: 4G Rollout, RAN modernization Technical Lead
+    \begin{itemize}
+        \item Developed and maintained scripts/procedures for the Mosaic LTE Rollout program.
+    \end{itemize}
+    \item \textbf{Feb 2011 -- Dec 2012, Düsseldorf}: Integration \& Configuration \& Procedure Development
+    \begin{itemize}
+        \item Developed a procedure for RNC modernization swap. The procedure development has been done without access to test nodes. Execution in the live network done without major incidents.
+    \end{itemize}
+\end{itemize}
+
+\subsection*{Relevant AI/ML Online Courses}
+\begin{itemize}
+    \item \textbf{LLM Engineering:}
+    \begin{itemize}
+        \item Master AI, Large Language Models \& Agents
+    \end{itemize}
+    \item \textbf{Andrej Karpathy's Tutorials}:
+    \begin{itemize}
+        \item GPT Tokenizer
+        \item Reproducing GPT-2
+    \end{itemize}
+    \item \textbf{Udacity}:
+    \begin{itemize}
+        \item Self-Driving Car Nanodegree (T1)
+        \item Machine Learning Engineer Nanodegree
+        \item Deep Learning Foundations Nanodegree
+    \end{itemize}
+    \item \textbf{Coursera}:
+    \begin{itemize}
+        \item Machine Learning (Stanford University)
+        \item Using Databases with Python (University of Michigan)
+        \item State-Estimation and Localization for Self-Driving Cars (University of Toronto)
+    \end{itemize}
+\end{itemize}
+
+\subsection*{References}
+\begin{tabbing}
+    \hspace{0.55cm} \= \hspace{4.55cm} \= \hspace{3cm} \= \kill % Set tab stops
+
+    % \> \href{https://www.linkedin.com/in/carolroboticvision/}{\textbf{Carol Martinez}}  \> RMS (Robotic Manipulation in Space) professor\\
+    \> \href{https://www.linkedin.com/in/jorgequerol/}{\textbf{Jorge Querol}}  \> SatCom (Satellite Communications) professor\\
+    % \> \href{https://www.linkedin.com/in/raonilourenco/}{\textbf{Raoni Lourenço}}  \> ML (Machine Learning) teacher\\
+    \> \href{https://www.linkedin.com/in/djamilaaouada/}{\textbf{Djamila Aouada}}  \> CVIA (Computer Vision and Image Analysis) professor\\
+    \> \href{https://www.linkedin.com/in/fabrizio-pastore-41226b4/}{\textbf{Fabrizio Pastore}}  \> Space Informatics professor, Master Thesis supervisor\\
+    \> \href{https://www.linkedin.com/in/miguel-a-olivares-mendez-8a952533/}{\textbf{Miguel Olivares-Mendez}}  \> Space Robotics professor, Scientific Project supervisor\\
+    % \> \href{https://www.linkedin.com/in/holger-voos-85864938/}{\textbf{Holger Voos}}  \> GNCSS (Guidance, Navigation and Control for Space Systems) professor\\
+    \> \href{https://www.linkedin.com/in/christian-fisch-7745ba167/}{\textbf{Christian Fisch}}  \> Business Economics and Entrepreneurship professor\\
+
+\end{tabbing}
+
+
+\end{document}
